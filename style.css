@@ -397,5 +397,37 @@ footer span{
 
 
 
+@media (max-width:380px){
+
+    h1{
+        font-size: 44px;
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    .box_conteudo span{
+        width: 87%;
+        font-size: 24px;
+    }
+
+    .box_conteudo{
+        top:21%
+    }
+
+    .h2_sobre{
+        margin: 50px auto;
+        font-size: 41px;
+        width: 93%;
+    }
+
+    .h3_sobre{
+        font-size: 32px;
+    }
+
+    footer span{
+        width: 80%;
+    }
+}
+
 
 
