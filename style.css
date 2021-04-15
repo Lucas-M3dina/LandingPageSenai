@@ -46,6 +46,10 @@ header{
     font-size: 18px;
 }
 
+.btn_menu i{
+    display: none;
+}
+
 main{
     margin: auto 0;
 }
@@ -259,14 +263,41 @@ footer span{
     }
 
     .container_header{
-        justify-content: center;
+        justify-content: flex-start;
         height: 100%;
         margin: 0 auto;
         width: 80%;
+        align-items: center;
     }
 
     .menu_header{
+        display: none;
+        background-color: #000;
+        flex-direction: column;
+        z-index: 99;
+        position: absolute;
+        left: 0px;
+        top: 9%;
         width: 100%;
+        height: 300px;
+        padding: 20px 0;
+    }
+
+    .menu_header a{
+        width: 100%;
+        text-align: center;
+        padding: 18px;
+    }
+
+    .menu_header a:hover{
+        background-color: #F9003D;
+        color: #fff;
+    }
+
+    .btn_menu i{
+        display: inline-block;
+        color: #fff;
+        font-size: 40px;
     }
 
     .container_banner{
@@ -280,6 +311,7 @@ footer span{
         justify-content: center;
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
 
     .box_conteudo{
