@@ -279,7 +279,7 @@ footer span{
         display: flex;
         justify-content: center;
         height: 100%;
-        width: auto;
+        width: 100%;
     }
 
     .box_conteudo{
